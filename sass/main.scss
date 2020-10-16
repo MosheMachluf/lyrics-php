@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  overflow: auto;
+}
+
+main {
+  min-height: 80vh;
+}
+
+.navbar {
+  box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.1);
+}
+
+.form-wide {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.navbar-burger span {
+  height: 0.15rem;
+  width: 25px;
+}
+
+.button {
+  text-transform: capitalize;
+}
+
+.button.is-medium {
+  font-weight: bold;
+}
+
+.card-header-icon .icon:hover {
+  background: #eee;
+  border-radius: 50px;
+}
+
+.content {
+  white-space: pre-line;
+}
+
+
+.card-content {
+  padding-top: 0;
+}
+
+.title {
+  text-transform: capitalize;
+}
+
+.file-label {
+  width: 100%;
+}
+
+.file-name {
+  max-width: 100%;
+}
+
+.grow-1 {
+  flex: 1;
+}
+
+figure {
+  border-radius: 50px;
+  overflow: hidden;
+}
+
+.full-width{
+  width: 100%;
+}
