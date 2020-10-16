@@ -77,7 +77,7 @@ $uid = $_SESSION['user_id'] ?? null;
         <div class="card-content">
           <div class="content">
             <h2 class="title"><?= htmlspecialchars($song['title']); ?></h2>
-            <?= htmlspecialchars($song['lyrics']); ?>
+            <p class="lyrics-song hide"><?= htmlspecialchars($song['lyrics']); ?></p>
           </div>
         </div>
 
